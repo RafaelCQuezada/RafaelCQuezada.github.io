@@ -1,0 +1,49 @@
+body{
+    background-color: #161616;
+}
+
+.containerr{
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.containerr:hover .cardd{
+    transform: translate3d(0px, 0px, 0px) scale3d(0.9, 0.9, 1)
+rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.cardd {
+    width: 200px;
+    height: 200px;
+    background-color: #2E2929;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.containerr:hover .cardd:hover {
+    transform: translate3d(0px, 0px, 0px) scale3d(1.1, 1.1, 1)
+    rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    box-shadow: 0px 4px 4px #0021da;
+}
+
+
+
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 20, 0.445);
+  }
+  
+  
