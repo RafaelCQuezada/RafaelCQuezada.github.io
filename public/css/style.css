@@ -46,4 +46,46 @@ rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     background-color: rgba(0, 0, 20, 0.445);
   }
   
+/* Animacion para aparecer por la derecha */
+  #miDiv {
+    left: 100%;
+    animation: aparecer-derecha 3s forwards;
+  }
+   
+
+  #miDiv:focus {
+    animation: aparecer-derecha 2s forwards;
+  }
   
+  @keyframes aparecer-derecha {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+/* Fin Animacion para aparecer por la derecha */
+
+  /* Animacion para aparecer por la izquierda */
+  #miDiv2 {
+    right: -100%;
+    animation: aparecer-izquierda 2s forwards;
+  }
+                                                      
+  
+
+  #miDiv:focus {
+    animation: aparecer-izquierda 3s forwards;
+  }
+  
+  @keyframes aparecer-izquierda {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  /* Fin Animacion para aparecer por la izquierda */
+

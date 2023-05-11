@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="public/css/style.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="public/js/script.js"></script>
     <link rel="stylesheet" href="css/style.css">
-    <title>Home</title>
+    <title>Portfolio</title>
 </head>
 
 <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
@@ -95,166 +96,181 @@
     <!-- Fin que contiene la imagen y titulo de la pagina en grande -->
 
 
-<!-- Inicio Corte de wallpaper inicial -->
+    <!-- Inicio Corte de wallpaper inicial -->
     <div class="bg-white dark:bg-gray-500">
         <br>
     </div>
-<!-- Fin Corte de wallpaper inicial -->
+    <!-- Fin Corte de wallpaper inicial -->
 
 
 
     <br><br><br><br><br><br><br><br>
     <!-- Inicio div padre de arriba -->
-    <div id="home" class="fade-in visible  flex flex-col sm:flex-row px-5"
-        style="background-color: rgba(12, 11, 80, 0.473);">
-        <!-- Inicio div izquierda de arriba -->
-        <div class="w-full sm:w-1/2 p-4 sm:pr-2 flex items-start items-center animate-slide-up">
+    <div id="miDiv">
+        <div id="home" class="fade-in visible  flex flex-col sm:flex-row px-5"
+            style="background-color: rgba(12, 11, 80, 0.473);">
+            <!-- Inicio div izquierda de arriba -->
+            <div class="w-full sm:w-1/2 p-4 sm:pr-2 flex items-start items-center animate-slide-up">
 
-            <figure class="max-w-screen-md mx-auto ">
-                <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
-                    "Hello, I am Rafael"</h1>
-                <p class="mb-8 text-lg font-normal text-white lg:text-xl">Systems Analyst and Computer
-                    Engineering Student</p>
-                <p class="mb-8 text-lg font-normal text-white lg:text-xl">Welcome to my portfolio website as a
-                    constantly learning developer! Here you can view my projects,
-                    technical skills and achievements. Enjoy your visit!</p>
-                <div class="flex flex-col space-y-4 sm:flex-row  sm:space-y-0 sm:space-x-4">
-                    <a href="#proyectos"
-                        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-                        View projects
-                        <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd"
-                                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                clip-rule="evenodd"></path>
-                        </svg>
-                    </a>
-                    <a href="#about_me"
-                        class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-blue-700 hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
-                        Learn more
-                    </a>
-                </div>
-                <br><br>
-                <!-- Div de redes sociales Inicio-->
-                <div class="flex mt-4 space-x-6  md:mt-0">
-                    <a href="https://www.facebook.com/HoliComoEsta/"
-                        class="text-blue-700 hover:text-gray-900 dark:hover:text-white" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                            <path
-                                d="M20.875 0h-17.75c-1.932 0-3.5 1.568-3.5 3.5v17.75c0 1.932 1.568 3.5 3.5 3.5h17.75c1.932 0 3.5-1.568 3.5-3.5v-17.75c0-1.932-1.568-3.5-3.5-3.5z M8.862 22.196h-3.362v-8.385h-1.837v-3.118h1.837v-1.742c0-1.815 1.108-2.803 2.726-2.803 0.788 0 1.464 0.059 1.659 0.085v1.899l-1.136 0.001c-0.893 0-1.066 0.424-1.066 1.043v1.371h2.13l-0.279 3.118h-1.851l-0.053 8.385z">
-                            </path>
-                        </svg>
-                        <span class="sr-only">Facebook page</span>
-                    </a>
-                    <a href="https://www.instagram.com/_r_de_raphiel_/"
-                        class="text-blue-700 hover:text-gray-900 dark:hover:text-white" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                            <path
-                                d="M12 0a12 12 0 0 1 8.5 3.5A12 12 0 0 1 24 12a12 12 0 0 1-3.5 8.5A12 12 0 0 1 12 24a12 12 0 0 1-8.5-3.5A12 12 0 0 1 0 12a12 12 0 0 1 3.5-8.5A12 12 0 0 1 12 0zm5.16 3.5H6.84C5.8 3.5 5 4.3 5 5.34v8.32c0 1.04.8 1.9 1.84 1.9h10.32c1.04 0 1.84-.86 1.84-1.9V5.34c0-1.04-.8-1.84-1.84-1.84zM12 8.78c-1.64 0-2.96 1.32-2.96 2.96s1.32 2.96 2.96 2.96 2.96-1.32 2.96-2.96-1.32-2.96-2.96-2.96zm4.48 6.4c0 .64-.52 1.16-1.16 1.16H9.68c-.64 0-1.16-.52-1.16-1.16v-3.32h1.94c-.14.52-.22 1.06-.22 1.6 0 3.18 2.6 5.78 5.78 5.78 3.18 0 5.78-2.6 5.78-5.78 0-.54-.08-1.08-.22-1.6h1.94v3.32z" />
-                        </svg>
-                        <span class="sr-only">Instagram page</span>
-                    </a>
-                    <a href="https://www.linkedin.com/in/rafael-antonio-celis-quezada-16b17026a/"
-                        class="text-blue-700 hover:text-gray-900 dark:hover:text-white" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                            <path
-                                d="M20.297 3h-16.59c-1.373 0-2.484 1.112-2.484 2.484v16.59c0 1.372 1.111 2.484 2.484 2.484h16.59c1.373 0 2.484-1.112 2.484-2.484v-16.59c0-1.372-1.111-2.484-2.484-2.484zM7.781 18.891h-3.188v-9.938h3.188v9.938zM6.086 7.969c-1.097 0-1.98-0.887-1.98-1.98 0-1.093 0.883-1.98 1.98-1.98 1.093 0 1.98 0.887 1.98 1.98 0 1.093-0.887 1.98-1.98 1.98zM19.781 18.891h-3.187v-5.172c0-1.223-0.437-2.057-1.524-2.057-0.829 0-1.325 0.557-1.539 1.094-0.08 0.196-0.1 0.468-0.1 0.743v5.392h-3.187s0.040-8.266 0-9.938h3.187v1.404c0.425-0.656 1.189-1.594 2.886-1.594 2.105 0 3.688 1.38 3.688 4.382v6.746z">
-                            </path>
-                        </svg>
+                <figure class="max-w-screen-md mx-auto ">
+                    <h1
+                        class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
+                        "Hello, I am Rafael"</h1>
+                    <p class="mb-8 text-lg font-normal text-white lg:text-xl">Systems Analyst and Computer
+                        Engineering Student</p>
+                    <p class="mb-8 text-lg font-normal text-white lg:text-xl">Welcome to my portfolio website as a
+                        constantly learning developer! Here you can view my projects,
+                        technical skills and achievements. Enjoy your visit!</p>
+                    <div class="flex flex-col space-y-4 sm:flex-row  sm:space-y-0 sm:space-x-4">
+                        <a href="#proyectos"
+                            class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                            View projects
+                            <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                        <a href="#about_me"
+                            class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-blue-700 hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
+                            Learn more
+                        </a>
+                    </div>
+                    <br><br>
+                    <!-- Div de redes sociales Inicio-->
+                    <div class="flex mt-4 space-x-6  md:mt-0">
+                        <a href="https://www.facebook.com/HoliComoEsta/"
+                            class="text-blue-700 hover:text-gray-900 dark:hover:text-white" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-6 h-6">
+                                <path
+                                    d="M20.875 0h-17.75c-1.932 0-3.5 1.568-3.5 3.5v17.75c0 1.932 1.568 3.5 3.5 3.5h17.75c1.932 0 3.5-1.568 3.5-3.5v-17.75c0-1.932-1.568-3.5-3.5-3.5z M8.862 22.196h-3.362v-8.385h-1.837v-3.118h1.837v-1.742c0-1.815 1.108-2.803 2.726-2.803 0.788 0 1.464 0.059 1.659 0.085v1.899l-1.136 0.001c-0.893 0-1.066 0.424-1.066 1.043v1.371h2.13l-0.279 3.118h-1.851l-0.053 8.385z">
+                                </path>
+                            </svg>
+                            <span class="sr-only">Facebook page</span>
+                        </a>
+                        <a href="https://www.instagram.com/_r_de_raphiel_/"
+                            class="text-blue-700 hover:text-gray-900 dark:hover:text-white" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-6 h-6">
+                                <path
+                                    d="M12 0a12 12 0 0 1 8.5 3.5A12 12 0 0 1 24 12a12 12 0 0 1-3.5 8.5A12 12 0 0 1 12 24a12 12 0 0 1-8.5-3.5A12 12 0 0 1 0 12a12 12 0 0 1 3.5-8.5A12 12 0 0 1 12 0zm5.16 3.5H6.84C5.8 3.5 5 4.3 5 5.34v8.32c0 1.04.8 1.9 1.84 1.9h10.32c1.04 0 1.84-.86 1.84-1.9V5.34c0-1.04-.8-1.84-1.84-1.84zM12 8.78c-1.64 0-2.96 1.32-2.96 2.96s1.32 2.96 2.96 2.96 2.96-1.32 2.96-2.96-1.32-2.96-2.96-2.96zm4.48 6.4c0 .64-.52 1.16-1.16 1.16H9.68c-.64 0-1.16-.52-1.16-1.16v-3.32h1.94c-.14.52-.22 1.06-.22 1.6 0 3.18 2.6 5.78 5.78 5.78 3.18 0 5.78-2.6 5.78-5.78 0-.54-.08-1.08-.22-1.6h1.94v3.32z" />
+                            </svg>
+                            <span class="sr-only">Instagram page</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/rafael-antonio-celis-quezada-16b17026a/"
+                            class="text-blue-700 hover:text-gray-900 dark:hover:text-white" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-6 h-6">
+                                <path
+                                    d="M20.297 3h-16.59c-1.373 0-2.484 1.112-2.484 2.484v16.59c0 1.372 1.111 2.484 2.484 2.484h16.59c1.373 0 2.484-1.112 2.484-2.484v-16.59c0-1.372-1.111-2.484-2.484-2.484zM7.781 18.891h-3.188v-9.938h3.188v9.938zM6.086 7.969c-1.097 0-1.98-0.887-1.98-1.98 0-1.093 0.883-1.98 1.98-1.98 1.093 0 1.98 0.887 1.98 1.98 0 1.093-0.887 1.98-1.98 1.98zM19.781 18.891h-3.187v-5.172c0-1.223-0.437-2.057-1.524-2.057-0.829 0-1.325 0.557-1.539 1.094-0.08 0.196-0.1 0.468-0.1 0.743v5.392h-3.187s0.040-8.266 0-9.938h3.187v1.404c0.425-0.656 1.189-1.594 2.886-1.594 2.105 0 3.688 1.38 3.688 4.382v6.746z">
+                                </path>
+                            </svg>
 
-                        <span class="sr-only">Linkedin Page</span>
-                    </a>
-                    <a href="https://github.com/RafaelCelisQ"
-                        class="text-blue-700 hover:text-gray-900 dark:hover:text-white" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M12 0c-6.627 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.11.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.725-4.042-1.61-4.042-1.61-.546-1.387-1.334-1.757-1.334-1.757-1.089-.744.083-.729.083-.729 1.204.085 1.838 1.237 1.838 1.237 1.07 1.837 2.809 1.304 3.495.997.108-.776.419-1.305.763-1.605-2.665-.304-5.466-1.333-5.466-5.931 0-1.312.465-2.383 1.235-3.222-.135-.303-.535-1.524.104-3.176 0 0 1.007-.322 3.3 1.23a11.556 11.556 0 0 1 3.014-.406c1.022 0 2.045.137 3.014.406 2.292-1.552 3.298-1.23 3.298-1.23.64 1.652.24 2.874.12 3.176.77.839 1.235 1.91 1.235 3.222 0 4.609-2.805 5.624-5.481 5.918.429.372.815 1.102.815 2.222 0 1.605-.015 2.896-.015 3.286 0 .315.21.688.825.573 4.764-1.592 8.198-6.084 8.198-11.39 0-6.627-5.373-12-12-12z" />
-                        </svg>
-                        <span class="sr-only">GitHub account</span>
-                    </a>
-                </div>
-                <!-- Div de redes sociales fin -->
-            </figure>
+                            <span class="sr-only">Linkedin Page</span>
+                        </a>
+                        <a href="https://github.com/RafaelCelisQ"
+                            class="text-blue-700 hover:text-gray-900 dark:hover:text-white" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-6 h-6">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M12 0c-6.627 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.11.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.725-4.042-1.61-4.042-1.61-.546-1.387-1.334-1.757-1.334-1.757-1.089-.744.083-.729.083-.729 1.204.085 1.838 1.237 1.838 1.237 1.07 1.837 2.809 1.304 3.495.997.108-.776.419-1.305.763-1.605-2.665-.304-5.466-1.333-5.466-5.931 0-1.312.465-2.383 1.235-3.222-.135-.303-.535-1.524.104-3.176 0 0 1.007-.322 3.3 1.23a11.556 11.556 0 0 1 3.014-.406c1.022 0 2.045.137 3.014.406 2.292-1.552 3.298-1.23 3.298-1.23.64 1.652.24 2.874.12 3.176.77.839 1.235 1.91 1.235 3.222 0 4.609-2.805 5.624-5.481 5.918.429.372.815 1.102.815 2.222 0 1.605-.015 2.896-.015 3.286 0 .315.21.688.825.573 4.764-1.592 8.198-6.084 8.198-11.39 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                            <span class="sr-only">GitHub account</span>
+                        </a>
+                    </div>
+                    <!-- Div de redes sociales fin -->
+                </figure>
 
+            </div>
+            <!-- Fin div izquierda de arriba -->
+            <!-- Inicio div derecha de arriba -->
+            <div class="w-full sm:w-1/2 p-4 sm:pl-2 flex items-end justify-center animate-slide-up">
+                <img src="./public/img/pcimagen.png" alt="Descripción de la imagen"
+                    class="object-contain w-full h-auto sm:w-1/2 sm:h-auto max-w-full shadow-lg hover:shadow-xl rounded-lg border-blue-700"
+                    style="width:400px;">
+            </div>
+            <!-- Fin div derecha de arriba -->
         </div>
-        <!-- Fin div izquierda de arriba -->
-        <!-- Inicio div derecha de arriba -->
-        <div class="w-full sm:w-1/2 p-4 sm:pl-2 flex items-end justify-center animate-slide-up">
-            <img src="./public/img/pcimagen.png" alt="Descripción de la imagen"
-                class="object-contain w-full h-auto sm:w-1/2 sm:h-auto max-w-full shadow-lg hover:shadow-xl rounded-lg border-blue-700"
-                style="width:400px;">
-        </div>
-        <!-- Fin div derecha de arriba -->
     </div>
+
     <!-- Fin div padre de arriba -->
 
     <br><br><br><br><br><br><br><br><br>
 
 
     <!-- Inicio div padre numero 2 -->
-    <div id="about_me" class="fade-in visible  flex flex-col sm:flex-row animate-slide-up px-5">
-        <!-- Inicio div izquierda numero 2 -->
-        <div class="w-full sm:w-1/2 p-4 sm:pr-2 flex items-start items-center justify-center">
-            <img src="./public/img/fotomia.jpg" alt="Descripción de la imagen"
-                class="object-contain w-full h-auto sm:w-1/2 sm:h-auto max-w-full shadow-lg hover:shadow-xl rounded-lg border-blue-700"
-                style="width: 300px;">
+    <div id="miDiv2">
+        <div id="about_me" class="fade-in visible  flex flex-col sm:flex-row animate-slide-up px-5">
+            <!-- Inicio div izquierda numero 2 -->
+            <div class="w-full sm:w-1/2 p-4 sm:pr-2 flex items-start items-center justify-center">
+                <img src="./public/img/fotomia.jpg" alt="Descripción de la imagen"
+                    class="object-contain w-full h-auto sm:w-1/2 sm:h-auto max-w-full shadow-lg hover:shadow-xl rounded-lg border-blue-700"
+                    style="width: 300px;">
+            </div>
+            <!-- Fin div izquierda numero 2 -->
+            <!-- Inicio div derecha numero 2 -->
+            <div class="w-full sm:w-1/2 p-4 sm:pr-2 flex items-start items-center animate-slide-up">
+                <figure class="max-w-screen-md mx-auto ">
+                    <h1
+                        class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
+                        "About Me"</h1>
+                    <br><br>
+                    <p class="mb-8 text-lg font-normal text-white lg:text-xl">Hello there! My name is Rafael Antonio
+                        Celis
+                        Quezada, and I am
+                        a Systems Analyst graduate from INACAP in 2022. Currently, I am focused on my continuous
+                        education
+                        and studying Computer Engineering.
+                        My great passion is web development, both in frontend and backend, and I am eager to continue
+                        learning and growing in this area.
+                        I consider myself a self-taught person, with a strong sense of responsibility and commitment to
+                        every project I am involved in. I
+                        am excited about the opportunities I may find to further develop my skills
+                        and collaborate on challenging and innovative projects.</p>
+                </figure>
+            </div>
+            <!-- Fin div derecha numero 2 -->
         </div>
-        <!-- Fin div izquierda numero 2 -->
-        <!-- Inicio div derecha numero 2 -->
-        <div class="w-full sm:w-1/2 p-4 sm:pr-2 flex items-start items-center animate-slide-up">
-            <figure class="max-w-screen-md mx-auto ">
-                <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
-                    "About Me"</h1>
-                <br><br>
-                <p class="mb-8 text-lg font-normal text-white lg:text-xl">Hello there! My name is Rafael Antonio Celis
-                    Quezada, and I am
-                    a Systems Analyst graduate from INACAP in 2022. Currently, I am focused on my continuous education
-                    and studying Computer Engineering.
-                    My great passion is web development, both in frontend and backend, and I am eager to continue
-                    learning and growing in this area.
-                    I consider myself a self-taught person, with a strong sense of responsibility and commitment to
-                    every project I am involved in. I
-                    am excited about the opportunities I may find to further develop my skills
-                    and collaborate on challenging and innovative projects.</p>
-            </figure>
-        </div>
-        <!-- Fin div derecha numero 2 -->
     </div>
     <!-- Fin div padre numero 2 -->
 
     <br><br><br><br><br><br><br><br><br>
 
     <!-- Inicio div padre numero 3 -->
-    <div id="proyectos" class="fade-in visible  flex flex-col sm:flex-row animate-slide-up px-5 justify-center"
-        style="background-color: rgba(12, 11, 80, 0.473);">
-        <!-- Inicio div izquierda numero 3 -->
-        <div class="p-4 animate-slide-up">
-            <div class="grid grid-cols-1 sm:flex-row">
+    <div id="miDiv">
+        <div id="proyectos" class="fade-in visible  flex flex-col sm:flex-row animate-slide-up px-5 justify-center"
+            style="background-color: rgba(12, 11, 80, 0.473);">
+            <!-- Inicio div izquierda numero 3 -->
+            <div class="p-4 animate-slide-up">
+                <div class="grid grid-cols-1 sm:flex-row">
 
-                <div class="text-center">
-                    <h1
-                        class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
-                        <span
-                            class="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">Works</span>
-                    </h1>
-                    <br><br><br>
+                    <div class="text-center">
+                        <h1
+                            class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
+                            <span
+                                class="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">Works</span>
+                        </h1>
+                        <br><br><br>
+                    </div>
+                    <!-- Div tarjetas -->
+                    <div class="relative containerr w-full ">
+                        <div class="cardd">
+                            <a href="https://3dprime.cl/" target="_blank"><img
+                                    src="./public/img/ProyectosImg/3DPrime.jpg" alt="" class="w-full h-full"></a>
+                        </div>
+                        <div class="cardd">
+                            <a href="https://villalegre.cl/" target="_blank"><img
+                                    src="./public/img/ProyectosImg/Municipalidad.jpg" alt="" class="w-full h-full"></a>
+                        </div>
+                        <div class="cardd">
+                            <a href="https://septimaruta.cl/" target="_blank"><img
+                                    src="./public/img/ProyectosImg/SeptimaRuta.jpg" alt="" class="w-full h-full"></a>
+                        </div>
+                    </div>
+                    <!-- Fin tarjetas -->
                 </div>
-                <!-- Div tarjetas -->
-                <div class="relative containerr w-full ">
-                    <div class="cardd">
-                        <a href="https://3dprime.cl/" target="_blank"><img src="./public/img/ProyectosImg/3DPrime.jpg"
-                                alt="" class="w-full h-full"></a>
-                    </div>
-                    <div class="cardd">
-                        <a href="https://villalegre.cl/" target="_blank"><img
-                                src="./public/img/ProyectosImg/Municipalidad.jpg" alt="" class="w-full h-full"></a>
-                    </div>
-                    <div class="cardd">
-                        <a href="https://septimaruta.cl/" target="_blank"><img
-                                src="./public/img/ProyectosImg/SeptimaRuta.jpg" alt="" class="w-full h-full"></a>
-                    </div>
-                </div>
-                <!-- Fin tarjetas -->
             </div>
         </div>
     </div>
